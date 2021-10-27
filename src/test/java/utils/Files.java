@@ -58,16 +58,6 @@ public class Files {
                 CellType cellType = cell.getCellType();
                 //перебираем возможные типы ячеек
                 switch (cellType) {
-//                    case Cell.CELL_TYPE_STRING:
-//                        result += cell.getStringCellValue() + "=";
-//                        break;
-//                    case Cell.CELL_TYPE_NUMERIC:
-//                        result += "[" + cell.getNumericCellValue() + "]";
-//                        break;
-//
-//                    case Cell.CELL_TYPE_FORMULA:
-//                        result += "[" + cell.getNumericCellValue() + "]";
-//                        break;
                     default:
                         result += cell.toString();
                         break;
